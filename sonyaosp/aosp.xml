@@ -32,4 +32,5 @@
   </project>
 
   <project path="external/libfuse" name="pablomh/platform_external_libfuse" groups="pdk" remote="github" revision="android-7.1" />
+  <project path="external/exfat" name="pablomh/platform_external_exfat" groups="pdk" remote="github" revision="android-7.1" />
 </manifest>
