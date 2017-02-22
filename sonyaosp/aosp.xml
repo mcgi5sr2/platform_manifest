@@ -35,4 +35,5 @@
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
 
+  <project path="external/libfuse" name="pablomh/platform_external_libfuse" groups="pdk" remote="github" revision="android-7.1" />
 </manifest>
