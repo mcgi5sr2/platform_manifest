@@ -97,4 +97,5 @@
   <remove-project name="platform/tools/tradefederation" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/vold" />
 </manifest>
