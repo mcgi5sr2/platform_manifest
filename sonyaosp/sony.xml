@@ -8,7 +8,7 @@
            fetch="https://github.com/sonyxperiadev/" />
 
   <project path="device/sony/sepolicy" name="SonyAosp/device_sony_sepolicy" groups="device" remote="github" revision="android-7.1-legacy" />
-  <project path="device/sony/common" name="SonyAosp/device_sony_common" groups="device" remote="github" revision="android-7.1-legacy" />
+  <project path="device/sony/common" name="pablomh/device_sony_common" groups="device" remote="github" revision="android-7.1-legacy" />
 
   <project path="device/sony/kanuti" name="pablomh/device_sony_kanuti" groups="device" remote="github" revision="android-7.1-legacy" />
   <project path="device/sony/tulip" name="SonyAosp/device_sony_tulip" groups="device" remote="github" revision="android-7.1-legacy" />
