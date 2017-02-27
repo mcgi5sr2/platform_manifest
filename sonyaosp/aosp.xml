@@ -29,7 +29,8 @@
   <project path="packages/providers/MediaProvider" name="SonyAosp/platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="android-7.1" />
 
   <project path="system/core" name="SonyAosp/platform_system_core" groups="pdk" remote="github" revision="android-7.1" />
-  <project path="system/sepolicy" name="SonyAosp/platform_system_sepolicy" groups="pdk" remote="github" revision="android-7.1" />
+  <project path="system/sepolicy" name="pablomh/platform_system_sepolicy" groups="pdk" remote="github" revision="android-7.1" />
+  <project path="system/vold" name="pablomh/platform_system_vold" groups="pdk" remote="github" revision="android-7.1" />
 
   <project path="vendor/google" name="SonyAosp/vendor_google" groups="device" remote="github" revision="android-7.1" >
     <copyfile src="build.sh" dest="rom-build.sh" />
@@ -37,6 +38,4 @@
 
   <project path="external/libfuse" name="pablomh/platform_external_libfuse" groups="pdk" remote="github" revision="android-7.1" />
   <project path="external/exfat" name="pablomh/platform_external_exfat" groups="pdk" remote="github" revision="android-7.1" />
-
-  <project path="system/vold" name="pablomh/platform_system_vold" groups="pdk" remote="github" revision="android-7.1" />
 </manifest>
