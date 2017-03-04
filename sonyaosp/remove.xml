@@ -19,6 +19,7 @@
   <remove-project name="device/linaro/hikey-kernel" clone-depth="1" />
   <remove-project name="device/moto/shamu" />
   <remove-project name="device/moto/shamu-kernel" />
+  <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/toybox" />
