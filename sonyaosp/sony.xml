@@ -8,9 +8,9 @@
            fetch="https://github.com/sonyxperiadev/" />
 
   <project path="device/sony/sepolicy" name="SonyAosp/device_sony_sepolicy" groups="device" remote="github" revision="android-7.1-legacy" />
-  <project path="device/sony/common" name="SonyAosp/device_sony_common" groups="device" remote="github" revision="android-7.1-legacy" />
+  <project path="device/sony/common" name="pablomh/device_sony_common" groups="device" remote="github" revision="android-7.1-legacy_exfat_kernel-fuse" />
 
-  <project path="device/sony/kanuti" name="SonyAosp/device_sony_kanuti" groups="device" remote="github" revision="android-7.1-legacy" />
+  <project path="device/sony/kanuti" name="pablomh/device_sony_kanuti" groups="device" remote="github" revision="android-7.1-legacy_exfat_kernel-fuse" />
   <project path="device/sony/tulip" name="SonyAosp/device_sony_tulip" groups="device" remote="github" revision="android-7.1-legacy" />
 
   <project path="device/sony/kitakami" name="SonyAosp/device_sony_kitakami" groups="device" remote="github" revision="android-7.1-legacy" />
@@ -45,7 +45,7 @@
   <project path="hardware/sony/macaddrsetup" name="SonyAosp/platform_hardware_sony_macaddrsetup" groups="device" remote="github" revision="master" />
   <project path="hardware/sony/init" name="SonyAosp/platform_hardware_sony_init" groups="device" remote="github" revision="android-7.1-legacy" />
 
-  <project path="kernel/sony/msm" name="SonyAosp/kernel" groups="device" remote="github" revision="android-7.0" />
+  <project path="kernel/sony/msm" name="pablomh/kernel" groups="device" remote="github" revision="android-7.0_exfat_kernel" />
 
   <project path="packages/apps/ExtendedSettings" name="SonyAosp/platform_packages_apps_ExtendedSettings" groups="device" remote="github" revision="master" />
 
